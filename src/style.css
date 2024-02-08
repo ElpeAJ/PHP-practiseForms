@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form > label,
+form > input {
+  display: block;
+  /* margin: 0 auto; */
+}
+
+form {
+  width: 34%;
+  border: 6px double rgb(27, 27, 83);
+  border-radius: 7px;
+  /* border-style: ; */
+  /* background-image: url("../images/backgroundImg2.jpg"); */
+  margin: 0 auto;
+  padding: 10px 25px;
+}
+
+form > input {
+  width: 91%;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+
+form > label {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+#sop,
+#profile {
+  border: none;
+}
+
+#submit {
+  background-color: rgba(49, 49, 227, 0.775);
+  color: white;
+  font-size: 25px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 14px;
+  width: 150px;
+}
