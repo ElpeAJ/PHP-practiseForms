@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practicing Forms with PHP</title>
-  <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
-  <h1>Sign Up Form</h1>
-  <form action="" method="get">
-    <label for="">First Name:</label>
-    <input type="text" name="" id="">
-    <label for="">Last Name:</label>
-    <input type="text" name="" id="">
-    <label for="">Profile Picture:</label>
-    <input type="image" src="" alt="">
-    <label for="">Password:</label>
-    <input type="password" name="" id="">
-    <label for="">Statement of Purpose:</label>
-    <input type="file" name="" id="">
-    <label for="">Email:</label>
-    <input type="email" name="" id="">
-  </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practicing Forms with PHP</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <h1>Sign Up Form</h1>
+    <form action="" method="get">
+      <label for="">First Name:</label>
+      <input type="text" name="fname" id="" />
+      <label for="">Last Name:</label>
+      <input type="text" name="lname" id="" />
+      <label for="">Profile Picture:</label>
+      <input id="profile"
+        type="image"
+        src="images/backgroundImg.jpg"
+        alt=""
+        name="profile"
+      />
+      <label for="">Password:</label>
+      <input type="password" name="password" id="" />
+      <label for="">Statement of Purpose:</label>
+      <input type="file" name="purpose" id="sop" />
+      <label for="">Email:</label>
+      <input type="email" name="email" id="" />
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
 </html>
